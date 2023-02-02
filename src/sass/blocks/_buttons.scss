@@ -1,0 +1,54 @@
+.btn-status {
+  width: 80px;
+  height: 29px;
+  background: #ffc5c5;
+  border: 1px solid #df0404;
+  border-radius: 4px;
+  color: #df0404;
+  &_active {
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00b087;
+    color: #008767;
+  }
+}
+.btn-list {
+  width: 26px;
+  height: 24px;
+  background: #f5f5f5;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  color: #404b52;
+  font-size: 12px;
+  line-height: 100%;
+  &:hover,
+  &_active {
+    background: #5932ea;
+    border: 1px solid #5932ea;
+    color: #ffffff;
+  }
+}
+.btn-nav {
+  margin-right: 100px;
+  padding: 11px;
+  width: 250px;
+  height: 46px;
+  left: 28px;
+  top: 256px;
+  color: #9197b3;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  text-align: start;
+  margin-bottom: 18px;
+  img {
+    margin-right: 14px;
+  }
+  &_active,
+  &:hover {
+    background: #5932ea;
+    color: #ffffff;
+    border-radius: 8px;
+    span {
+      color: #ffffff;
+    }
+  }
+}
