@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.min.css" />
@@ -53,7 +59,10 @@
         <div class="dashboard__block">
           <h2 class="dashboard__title">All Customers</h2>
           <div class="dashboard__subtitle">Active Members</div>
-          <input class="dashboard__search" type="Search" placeholder="Search" />
+          <div class="dashboard__search">
+            <span class="dashboard__icon"><i class="bi bi-search"></i></span>
+            <input type="Search" placeholder="Search" />
+          </div>
           <div class="dashboard__table">
             <table class="table">
               <tr class="dashboard__table_headerrow">
@@ -145,14 +154,18 @@
               Showing data 1 to 8 of 256K entries
             </div>
             <div class="dashboard__namber-list">
-              <button class="btn-list"><i class="arrow left"></i></button>
+              <button class="btn-list">
+                <i class="bi bi-chevron-left"></i>
+              </button>
               <button class="btn-list btn-list_active">1</button>
               <button class="btn-list">2</button>
               <button class="btn-list">3</button>
               <button class="btn-list">4</button>
               <div>...</div>
               <button class="btn-list">40</button>
-              <button class="btn-list"><i class="arrow right"></i></button>
+              <button class="btn-list">
+                <i class="bi bi-chevron-right"></i>
+              </button>
             </div>
           </div>
         </div>
